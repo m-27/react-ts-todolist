@@ -2,6 +2,7 @@
   "name": "ts-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://m-27.github.io/react-ts-todolist",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -11,7 +12,8 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
